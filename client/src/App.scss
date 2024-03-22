@@ -69,4 +69,13 @@ img, video{
     outline: none;
     cursor: pointer;
     border-radius: 8px;
+    padding: .8rem 1rem;
+    color: var(--greyText);
+}
+.btn .icon{
+    margin-left: .5rem;
+}
+.btn:hover{
+    color: var(--primaryColor);
+    background: var(--paleGreen);
 }
